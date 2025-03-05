@@ -1,0 +1,123 @@
+.backgroundClip{
+    position: relative;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.title {
+    font-family: arial;
+    color: #154c79;
+    position: absolute;
+    text-align: center;
+    font-size: 35px;
+    flex-wrap: wrap;
+    max-width: 200px;
+    top: 20%;
+    right: 15%;
+}
+
+button {
+    position: absolute;
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #f5e3bf;
+    top: 85%;
+    left: 15%;
+    width: 300px;
+    background-color: #154c79;
+    border-color: transparent;
+    border-radius: 25px;
+}
+
+.lifeCount {
+    position: absolute;
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    top: 80%;
+    left: 23%;
+    background-color: #ded7c6;
+    border-color: black;
+    border-radius: 15px;
+}
+
+#letterInput {
+    position: absolute;
+    display: flex;
+    top: 68%;
+    left: 11%;
+    width: 400px;
+    height: 75px;
+}
+
+.guessedLetters {
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    left: 25px;
+    color: white;
+    background-color: #154c79;
+    border-color: black;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+.chooseRandom {
+    position: absolute;
+    display: flex;
+    top: 55%;
+    left: 14.7%;
+    font-size: 80px;
+    color: #525150;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.puzzle1 {
+    position: absolute;
+    display: flex;
+    z-index: -1;
+}
+
+.puzzle2 {
+    position: absolute;
+    display: flex;
+    z-index: -1;
+}
+
+.puzzle3 {
+    position: absolute;
+    display: flex;
+    z-index: -1;
+}
+
+.puzzle4 {
+    position: absolute;
+    display: flex;
+    z-index: -1;
+}
+
+.puzzle5 {
+    position: absolute;
+    display: flex;
+    z-index: -1;
+}
+
+#imageC {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#imageC img {
+    width: 700px;
+}
+
+.puzzlePieces {
+    justify-content: center;
+}

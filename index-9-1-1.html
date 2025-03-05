@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Perrett, Lapid, Daguro">
+        <title>Seaside Hangman</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="hangmanGame.css">
+    </head>
+    <body>
+        <div class="background">
+            <video autoplay loop muted plays-inline class="backgroundClip">
+                <source src="copy_54BCE178-D18A-484F-9F72-8341B955D255.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div id="chooseRandom" class="chooseRandom"></div>
+
+        <div id="guessedLetters" class="guessedLetters"></div>
+
+        <div class="puzzlePieces">
+            <div id="imageC"></div>
+        </div>
+
+        <div id="lifeCount" class="lifeCount">Lives: 5</div>
+        
+        <input type="text" id="letterInput">
+
+        <button onclick="handleGuess()">Guess</button>
+    </body>
+</html>
